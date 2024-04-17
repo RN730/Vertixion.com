@@ -1,0 +1,28 @@
+<style> 
+.uni-button {
+    background-color: rgb(130, 20, 220); 
+    color: white; 
+    border-color: aqua;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 100px;
+} </style>
+
+<main>
+<header>
+    <h1>VERTIXION</h1
+
+    <button id="about-us-button" class='uni-button'> About Us </button>  
+    <button id="the-team-button" class='uni-button'> The Team </button> 
+    <button id="projects-button" class='uni-button'> Projects </button>
+</header>
+<p>Insert Small motto Here</p>
+
+<a href="https://www.youtube.com/user/pewdiepie" target="_blank"> PewDiePie YT Channel </a>
+<p> added teh above ^ as a temp </p>
+
+<p> contact us </p>
+<p> enter contact details here </p>
+</main>
