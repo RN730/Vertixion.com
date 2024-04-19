@@ -1,0 +1,78 @@
+.page-header{
+    margin-top: 35px;
+    font-family: Arial;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(230, 83, 83);
+    
+}
+
+button {    
+    transition: opacity 0.2s, background-color 0.17s;
+}
+
+.about-us-button {
+    background-color: rgb(130, 20, 220); 
+    color: white; 
+    border-color: aqua;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 100px;
+    margin-left: 300px;
+}
+
+.about-us-button:hover{
+    background-color: rgb(166, 77, 240); 
+    opacity: 0.5;
+}
+
+.about-us-button:active{
+    background-color: rgb(230, 98, 201); 
+    opacity: 0.3;
+}
+
+.the-team-button{
+    background-color: rgb(2, 139, 20); 
+    color: white; 
+    border-color: aqua;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.the-team-button:hover{
+    box-shadow: 0 0 0 black;
+    background-color: rgb(1, 194, 27);
+    opacity: 0.5;
+}
+
+.the-team-button:active{
+    background-color: rgb(0, 228, 30);
+    opacity: 0.3;
+}
+
+.projects-button{
+    background-color: rgba(130, 20, 220, 0.295); 
+    color: white; 
+    border-color: aqua;
+    height: 50px;
+    width: 100px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.projects-button:hover{
+    background-color: rgba(183, 122, 233, 0.295);
+    opacity: 0.5;
+}
+
+.projects-button:active{
+    background-color: rgba(174, 116, 221, 0.295);
+    opacity: 0.3;
+}
