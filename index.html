@@ -10,7 +10,20 @@
     border-radius: 15px;
     cursor: pointer;
     margin-right: 100px;
+    transition: opacity .2s, background-color 0.17s;
+
 }
+
+.aboutus-button:hover{
+    background-color: rgb(166, 77, 240); 
+    opacity: 0.5;
+}
+
+.aboutus-button:active{
+    background-color: rgb(230, 98, 201); 
+    opacity: 0.3;
+}
+
 .theTeam-button{
     background-color: rgb(2, 139, 20); 
     color: white; 
@@ -21,8 +34,12 @@
     cursor: pointer;
     margin-right: 100px;
 }
+
+.theTeam-button:hover{
+    box-shadow: 0 0 0 black;
+}
 .Projects-button{
-    background-color: rgb(130, 20, 220); 
+    background-color: rgba(130, 20, 220, 0.295); 
     color: white; 
     border-color: aqua;
     height: 50px;
