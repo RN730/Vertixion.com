@@ -4,7 +4,9 @@
     font-size: 100px;
     font-weight: bold;
     text-align: center;
-    background-color: rgb(230, 83, 83);
+    background-color: lightblue;
+    margin-left: 0px;
+    margin-right: 0px;
     
 }
 
@@ -20,8 +22,7 @@ button {
     width: 100px;
     border-radius: 15px;
     cursor: pointer;
-    margin-right: 100px;
-    margin-left: 300px;
+    
 }
 
 .about-us-button:hover{
@@ -42,7 +43,8 @@ button {
     width: 100px;
     border-radius: 30px;
     cursor: pointer;
-    margin-right: 100px;
+    margin: 0px 100px 0px 100px;
+    
 }
 
 .the-team-button:hover{
@@ -64,7 +66,7 @@ button {
     width: 100px;
     border-radius: 60px;
     cursor: pointer;
-    margin-right: 100px;
+    
 }
 
 .projects-button:hover{
@@ -75,4 +77,14 @@ button {
 .projects-button:active{
     background-color: rgba(174, 116, 221, 0.295);
     opacity: 0.3;
+}
+
+.motto{
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
